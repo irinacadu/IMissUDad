@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
+
+h1 {
+
+    font-size: 'Bebas Neue';
+    text-transform: uppercase;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.miss_you_dad {
+    display: flex;
+    height: 100vh;
+
+    .title {
+        width: 50%;
+        background-color: black;
+        height: 100vh;
+        color: white;
+        font-size: 8rem;
+        .dad{
+            display: flex;
+        }
+    };
+    .music_miss_you_dad{
+        width: 50%;
+        height: 100vh;
+        background-color: grey;
+    }
+}
+.icon {
+    font-family: FontAwesome;
+  }
+  
+.love {
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    background: red;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+  }
+  
+  .love:before,
+  .love:after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+  }
+  
+  .love:before {
+    top: 0;
+    left: -25px;
+  }
+  
+  .love:after {
+    top: -25px;
+  }
